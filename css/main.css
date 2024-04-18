@@ -41,7 +41,7 @@ h1 {
 }
 
 .hero {
-  background-image: url(/images/home/garden.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/home/garden.webp);
   background-size: cover;
   background-position: center;
   height: 30vh;
@@ -53,7 +53,7 @@ h1 {
 }
 
 .fertilizers {
-  background-image: url(/images//products/fertilizers.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/products/fertilizers.webp);
 }
 
 .projects {
@@ -70,21 +70,21 @@ h1 {
 }
 
 .custom-services {
-  background-image: url(/images/services/custom.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/services/services.webp);
 }
 
 .products {
-  background-image: url(/images/products/products.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/products/products.webp);
 }
 
 .seeds {
-  background-image: url(/images/products/seeds.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/products/seeds.webp);
 }
 
 .contact {
   position: relative;
   /* Ensure the pseudo-element is positioned relative to this element */
-  background-image: url(/images/contact/contact.webp);
+  background-image: url(/workspaces/hw-lanscaping/images/contact/contact.webp);
 }
 
 .contact::before {
