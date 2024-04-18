@@ -1,0 +1,121 @@
+html {
+  --main-color: hsl(150, 70%, 31%)
+}
+
+/* Typography */
+
+.hanging {
+  text-indent: -.4em;
+}
+
+.text-success {
+  color: var(--main-color) !important;
+}
+
+/* Navigation */
+
+.navbar .active {
+  background-color: #eee;
+  color: var(--main-color) !important;
+  border-radius: .5rem;
+}
+
+.bg-success {
+  background-image: linear-gradient(to right, #111, var(--main-color));
+}
+
+.navbar-brand > img {
+  height: 30px;
+  width: auto;
+}
+
+.breadcrumb {
+  margin-top: 1rem;
+  --bs-breadcrumb-divider: "➤";
+}
+
+/* Hero */
+
+h1 {
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.hero {
+  background-image: url(/images/home/garden.webp);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  align-items: center;
+}
+
+.home {
+  height: 80vh;
+}
+
+.fertilizers {
+  background-image: url(/images//products/fertilizers.webp);
+}
+
+.projects {
+  background-image: url(/images/projects/projects.webp);
+}
+
+.services {
+  background-image: url(/images/services/services.webp);
+}
+
+.landscape-maintenance {
+  background-image: url(/images/services/maintenance-full.webp);
+  background-position-y: center -220px;
+}
+
+.custom-services {
+  background-image: url(/images/services/custom.webp);
+}
+
+.products {
+  background-image: url(/images/products/products.webp);
+}
+
+.seeds {
+  background-image: url(/images/products/seeds.webp);
+}
+
+.contact {
+  position: relative;
+  /* Ensure the pseudo-element is positioned relative to this element */
+  background-image: url(/images/contact/contact.webp);
+}
+
+.contact::before {
+  content: '';
+  /* Necessary for the pseudo-element to be generated */
+  position: absolute;
+  /* Position it over the .contact element */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  /* Adjust the last value to control the darkness (0 is fully transparent, 1 is fully black) */
+  pointer-events: none;
+  /* This ensures that clicks pass through to the underlying elements */
+}
+
+/* Projects */
+
+.multi-column {
+  column-count: 3;
+  column-width: auto;
+  column-gap: 1rem;
+}
+
+@media (max-width: 991px) {
+  .multi-column {
+    column-count: 1;
+  }
+}
+
+.mulch-list li {
+  list-style: none;
+}
