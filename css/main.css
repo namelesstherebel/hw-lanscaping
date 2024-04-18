@@ -41,7 +41,7 @@ h1 {
 }
 
 .hero {
-  background-image: url(/images/home/garden.webp);
+  background-image: url(./images/home/garden.webp);
   background-size: cover;
   background-position: center;
   height: 30vh;
@@ -53,38 +53,38 @@ h1 {
 }
 
 .fertilizers {
-  background-image: url(/images//products/fertilizers.webp);
+  background-image: url(./images//products/fertilizers.webp);
 }
 
 .projects {
-  background-image: url(/images/projects/projects.webp);
+  background-image: url(./images/projects/projects.webp);
 }
 
 .services {
-  background-image: url(/images/services/services.webp);
+  background-image: url(./images/services/services.webp);
 }
 
 .landscape-maintenance {
-  background-image: url(/images/services/maintenance-full.webp);
+  background-image: url(./images/services/maintenance-full.webp);
   background-position-y: center -220px;
 }
 
 .custom-services {
-  background-image: url(/images/services/custom.webp);
+  background-image: url(./images/services/custom.webp);
 }
 
 .products {
-  background-image: url(/images/products/products.webp);
+  background-image: url(./images/products/products.webp);
 }
 
 .seeds {
-  background-image: url(/images/products/seeds.webp);
+  background-image: url(./images/products/seeds.webp);
 }
 
 .contact {
   position: relative;
   /* Ensure the pseudo-element is positioned relative to this element */
-  background-image: url(/images/contact/contact.webp);
+  background-image: url(./images/contact/contact.webp);
 }
 
 .contact::before {
